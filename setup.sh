@@ -27,8 +27,6 @@ echo "$host" >> /var/lib/premium-script/ipvps.conf
 echo "$host" >> /etc/v2ray/domain
 wget https://raw.githubusercontent.com/sreyaeve/greenspace/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/sreyaeve/greenspace/x/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
-#wget https://raw.githubusercontent.com/sreyaeve/greenspace/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
-#wget https://raw.githubusercontent.com/4hidessh/baru/main/installer/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/sreyaeve/greenspace/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 wget https://raw.githubusercontent.com/sreyaeve/greenspace/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 wget https://raw.githubusercontent.com/sreyaeve/greenspace/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
@@ -93,8 +91,7 @@ echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
 echo "   - Autoreboot On 05.00 GMT +7" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━BY JSTFREENET━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━BY ZenHost━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo ""
-echo " Reboot 10 Sec"
+echo " Disarankan Reboot sekarang"
 sleep 10
-reboot
