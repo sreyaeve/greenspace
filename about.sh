@@ -1,0 +1,21 @@
+#!/bin/bash
+
+clear
+echo -e "================================================="
+echo -e "# Script Auto Install SSH & OpenVPN             #"
+echo -e "#-----------------------------------------------#"
+echo -e "# For Debian 9 & 10 Buster 64 bit               #"
+echo -e "# For VPS with KVM and VMWare virtualization    #"
+echo -e "# Mod By ZenHost                            #"
+echo -e "#-----------------------------------------------#"
+echo -e "# Thanks To                                     #"
+echo -e "#-----------------------------------------------#"
+echo -e "# Allah SWT                                      #"
+echo -e "# My Brother                                         #"
+echo -e "# My Family                                     #"
+echo -e "# All Admin & All Member                                        #"
+echo -e "# Horass                               #"
+echo -e "# Rokok Aroma Bold                                #"
+echo -e "#                                               #"
+echo -e "#-----------------------------------------------#"
+echo -e "================================================="
